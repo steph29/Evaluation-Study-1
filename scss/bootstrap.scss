@@ -1,0 +1,99 @@
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+$color: rgb(106, 191, 174);
+
+html {
+  font-size: 14px;
+}
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(400px, auto);
+}
+.section-title {
+  grid-row: 1;
+  .container-title {
+    height: 800px;
+    background: url("/images/1x/Fichier\ 1_1.png") no-repeat center top;
+    background-size: contain;
+  }
+  a {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .title {
+    text-align: center;
+    padding-top: 400px;
+    h1 {
+      font-family: "Kaushan Script", cursive;
+      color: $color;
+      font-size: 4rem;
+    }
+  }
+}
+.section-texte {
+  grid-row: 2;
+}
+.container-text {
+  font-size: 1.6rem;
+  color: $color;
+  padding-top: 40px;
+  text-align: justify;
+}
+
+footer {
+  grid-row: 3;
+  background: url("/images/1x/Fichier\ 4.png") no-repeat center bottom;
+  background-size: contain;
+  height: 800px;
+  position: relative;
+  .container-attribution {
+    position: absolute;
+    bottom: 0;
+  }
+}
