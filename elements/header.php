@@ -1,5 +1,5 @@
  <header>
-          <div class="container container-header">
+          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
               <img src="/images/logoTEV.png" alt="tev" width="90px" />
               <button
@@ -17,8 +17,8 @@
                 class="collapse navbar-collapse justify-content-end"
                 id="navbarNav"
               >
-                <ul class="navbar-nav align-items-end">
-                  <li class="nav-item">
+                <ul class="navbar-nav align-items-end" id="navigation">
+                  <li class="nav-item" >
                     <a class="nav-link" href="/pages/index.php"
                       >L'association
                     </a>

@@ -9,16 +9,7 @@
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    /> -->
+
     <link rel="stylesheet" href="/bootstrap.css" />
     <title>Epissure</title>
   </head>
@@ -26,55 +17,68 @@
     <section class="section-title">
       <div class="container-fluid container-title">
         <?php
-        include "../elements/header.php";
-        ?>
+       include "../elements/header.php";
+       ?>
         <div class="container title">
           <h1>L'épicerie</h1>
         </div>
       </div>
     </section>
 
-    <section class="section-text">
-      <div class="container-fluid container-img"></div>
-      <div class="container container-text">
-        <p>
-          Créée grâce à quelques jeunes muzillacais engagés et désireux de faire
-          connaitre
-          <strong
-            >une agriculture respectueuse de l'homme et de son
-            environnement,</strong
-          >
-          l'association Terre en Vie
-          <strong
-            >oeuvre pour le développement d'une planète plus responsable et plus
-            solidaire.</strong
-          ><br /><br />
-          25 ans après notre première Foire Bio à Muzillac, cet événement
-          accueille,
-          <strong>tous les derniers week-ends (entiers) de septembre</strong>
-          plus de <strong>120 exposants</strong> et
-          <strong>6000 visiteurs.</strong><br />
-          Terre en Vie élargie sa réflexion sur
-          <strong>le respect de l'environnement</strong> et
-          <strong
-            >le développement de l'Agriculture biologique, l'éco-habitat, le
-            commerce équitable</strong
-          >... en organisant toute l'année des conférences, des rencontres et
-          des séances de Ciné-débats. <br /><br />
-          L'association Terre en Vie c'est aussi la création d'un
-          <strong>point de vente de produits bio</strong> à Muzillac : la
-          Biocoop Etamine, qui deviendra la Panier Bio en 2003.
-          <br />
-          Consacrant une attention particulière aux animations aussi bien pour
-          les enfants que pour les adultes, de nombreux intervenants et groupes
-          de musique locaux interviennent durant tout le week-end. C'est pour
-          cette raison , qu'en 2017, la
-          <strong>Foire bio</strong> de Muzillac devient
-          <strong><span>LA BIO EN FÊTE</span>!</strong>
-        </p>
+    <div class="container ">
+      <div class="card shadow-sm  text-center">
+      <div class="card-body">
+        <h5 class="card-title">Horaire d'ouverture</h5>
+     <table class="table table-bordered table-primary">
+  <thead>
+    <tr>
+      <th scope="col">jour</th>
+      <th scope="col">Matin</th>
+      <th scope="col">Après-midi</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Mardi</th>
+      <td>09h00 - 12h30</td>
+      <td>16h30 - 19h30</td>
+    </tr>
+    <tr>
+      <th scope="row">Mercredi</th>
+      <td>09h00 - 12h30</td>
+     <td >16h30 - 19h30</td>
+    </tr>
+    <tr>
+      <th scope="row">Jeudi</th>
+      <td >09h00 - 12h30</td>
+     
+      
+    </tr>
+    <tr>
+      <th scope="row">Vendredi</th>
+      <td >09h00 - 12h30</td>
+      <td >16h30 - 19h30</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Samedi</th>
+      <td >09h00 - 12h30</td>
+      <td >16h30 - 19h30</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Dimanche</th>
+      <td >09h30 - 13h00</td>
+      
+      
+    </tr>
+  </tbody>
+</table>
       </div>
-    </section>
-
+    </div>
+      
+    </div>
     <?php
     include "../elements/footer.php";
     ?>

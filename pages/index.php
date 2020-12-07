@@ -14,8 +14,8 @@
   </head>
   <body>
     <section class="section-title">
-      <div class="container-fluid container-title">
-       <?php
+      <div class=" container-title">
+      <?php
        include "../elements/header.php";
        ?>
         <div class="container title">
@@ -26,10 +26,10 @@
 
     <div class="container section-text">
       <div class="row">
-        <div class="col-md-6">
-          <img src="/images/social.jpg" alt="social" height="350" />
-        </div>
-        <div class="container-text col-md-6">
+        <!-- <div class="col-sm-6 col-md-6">
+          <img src="/images/social.jpg" alt="social" height="370" id="test" />
+        </div> -->
+        <div class="container-text ">
           <p>
             Créée grâce à quelques jeunes muzillacais engagés et désireux de
             faire connaitre

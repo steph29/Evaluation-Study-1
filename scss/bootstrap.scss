@@ -16,17 +16,34 @@ $primary: rgb(106, 191, 174);
 @import "images";
 @import "code";
 @import "grid";
+@import "tables";
 @import "forms";
 @import "buttons";
 @import "transitions";
 @import "dropdown";
 @import "button-group";
+@import "input-group";
+@import "custom-forms";
 @import "nav";
 @import "navbar";
 @import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
 @import "list-group";
+@import "close";
+@import "toasts";
 @import "modal";
+@import "tooltip";
+@import "popover";
 @import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
 
 html {
   font-size: 14px;
@@ -38,15 +55,12 @@ body {
 }
 .section-title {
   grid-row: 1;
+  width: 100%;
+  margin: 0;
   .container-title {
     height: 800px;
     background: url("/images/1x/Fichier\ 1_1.png") no-repeat center top;
     background-size: contain;
-  }
-  a {
-    color: white;
-    font-family: "Raleway", sans-serif;
-    font-size: 1.5rem;
   }
 
   .title {
@@ -56,6 +70,20 @@ body {
       font-family: "Kaushan Script", cursive;
       color: $primary;
       font-size: 4rem;
+    }
+  }
+}
+#navigation {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  //   width: 100%;
+  li {
+    padding-left: 50px;
+    a {
+      font-weight: bold;
+      color: white;
+      opacity: 0.8;
+      font-size: 1.15em;
     }
   }
 }
@@ -69,7 +97,7 @@ body {
 }
 .card:hover {
   img {
-    opacity: 0.8;
+    opacity: 0.6;
   }
 }
 
@@ -82,5 +110,15 @@ footer {
   .container-attribution {
     position: absolute;
     bottom: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #navigation {
+    li {
+      a {
+        color: $primary;
+      }
+    }
   }
 }

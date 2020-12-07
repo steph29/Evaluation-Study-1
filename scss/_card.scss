@@ -28,7 +28,7 @@
       @include border-top-radius($card-inner-border-radius);
     }
 
-    &:last-child {
+    &:last-child  {
       border-bottom-width: 0;
       @include border-bottom-radius($card-inner-border-radius);
     }
@@ -41,6 +41,7 @@
     border-top: 0;
   }
 }
+
 .card-body {
   // Enable `flex-grow: 1` for decks and groups so that card blocks take up
   // as much space as possible, ensuring footers are aligned to the bottom.
@@ -87,9 +88,7 @@
   border-bottom: $card-border-width solid $card-border-color;
 
   &:first-child {
-    @include border-radius(
-      $card-inner-border-radius $card-inner-border-radius 0 0
-    );
+    @include border-radius($card-inner-border-radius $card-inner-border-radius 0 0);
   }
 }
 
@@ -100,11 +99,10 @@
   border-top: $card-border-width solid $card-border-color;
 
   &:last-child {
-    @include border-radius(
-      0 0 $card-inner-border-radius $card-inner-border-radius
-    );
+    @include border-radius(0 0 $card-inner-border-radius $card-inner-border-radius);
   }
 }
+
 
 //
 // Header navs
@@ -150,6 +148,7 @@
   @include border-bottom-radius($card-inner-border-radius);
 }
 
+
 // Card deck
 
 .card-deck {
@@ -172,6 +171,7 @@
     }
   }
 }
+
 
 //
 // Card groups
@@ -235,6 +235,7 @@
   }
 }
 
+
 //
 // Columns
 //
@@ -256,6 +257,7 @@
     }
   }
 }
+
 
 //
 // Accordion

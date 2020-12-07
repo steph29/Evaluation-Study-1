@@ -15,7 +15,7 @@
   <body>
     <section class="section-title">
       <div class="container-fluid container-title">
-       <?php
+      <?php
        include "../elements/header.php";
        ?>
         <div class="container title">
