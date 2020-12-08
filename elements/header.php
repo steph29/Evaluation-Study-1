@@ -1,7 +1,7 @@
  <header>
           <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-              <img src="/images/logoTEV.png" alt="tev" width="90px" />
+              <img src="/images/1x/Epissure-blue.png" alt="epissure" width="190px" />
               <button
                 class="navbar-toggler"
                 type="button"
@@ -17,11 +17,11 @@
                 class="collapse navbar-collapse justify-content-end"
                 id="navbarNav"
               >
-                <ul class="navbar-nav align-items-end" id="navigation">
+                <ul class="navbar-nav mx-auto" id="navigation">
                   <li class="nav-item" >
-                    <a class="nav-link" href="/pages/index.php"
-                      >L'association
-                    </a>
+                      <a class="nav-link" href="/pages/index.php"
+                        >L'association
+                      </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/pages/epicerie.php"
@@ -40,4 +40,6 @@
               </div>
             </nav>
           </div>
+
+          
         </header>

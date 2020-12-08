@@ -1,19 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-
-    <link rel="stylesheet" href="/bootstrap.css" />
-    <title>Epissure</title>
-  </head>
-  <body>
+ <?php
+include "head.php";
+?>
+  <body class="mx-auto">
     <section class="section-title">
       <div class="container-fluid container-title">
         <?php
@@ -25,11 +15,117 @@
       </div>
     </section>
 
+      <section class="section-text py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                src="/images/legumes.jpg"
+                alt="legumes"
+                width="100%"
+                height="225px"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Des fruits de saisons issus de l'agriculturs biologique local
+                  !
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                src="/images/fruits.jpg"
+                alt="fruits"
+                width="100%"
+                height="225px"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Des fruits de saisons bio et beau pour toujours avoir la pêche
+                  et la banane !
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                src="/images/fromages.jpg"
+                alt="fromages"
+                width="100%"
+                height="225px"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Une vitrine des fromages les plus raffinés ainsi que des
+                  fromages locaux !
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                src="/images/bières.jpg"
+                alt="bieres"
+                width="100%"
+                height="225px"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Les meilleurs produits que la Bretagne est à vous offrir !
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                src="/images/local.jpg"
+                alt="local"
+                width="100%"
+                height="225px"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Nous favorisons les produits locaux, quelque soit le type de
+                  produits !
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img
+                src="/images/boucherie.jpg"
+                alt="boucherie"
+                width="100%"
+                height="225px"
+              />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Nos viandes sont garanties bretonnes et bonnes!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <div class="container ">
       <div class="card shadow-sm  text-center">
       <div class="card-body">
         <h5 class="card-title">Horaire d'ouverture</h5>
-     <table class="table table-bordered table-primary">
+     <table class="table table-bordered table-third">
   <thead>
     <tr>
       <th scope="col">jour</th>
@@ -52,8 +148,7 @@
     <tr>
       <th scope="row">Jeudi</th>
       <td >09h00 - 12h30</td>
-     
-      
+
     </tr>
     <tr>
       <th scope="row">Vendredi</th>
