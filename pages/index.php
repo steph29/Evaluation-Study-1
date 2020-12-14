@@ -4,7 +4,7 @@
 include "head.php";
 ?>
   <body class="mx-auto">
-    <section class="section-title">
+    <section class="section-title ">
       <div class=" container-title">
       <?php
        include "../elements/header.php";
@@ -16,8 +16,12 @@ include "head.php";
                 </div>
                 <div class="col-12 col-md-4 col-lg-6 order-md-1">
                     <h1 class="display-3 text-center text-md-left">Le régal d'Épissure</h1>
-                    <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">Épicerie associative </p>
-                    
+                      <p class="lead text-center text-lg-left text-muted mb-6 mb-lg-8">Épicerie 
+  <span
+     class="txt-rotate"
+     data-period="2000"
+     data-rotate='[ " associative.", " locale.", " bio.", " sympa!"]'></span>
+</p>
                 </div>
                 
             </div>
@@ -29,9 +33,7 @@ include "head.php";
 <section class="pt-8 pt-md-11 bg-gradient-light">
   <div class="container section-text">
     <div class="row">
- 
       <div class="container-text px-3">
-      
         <p>
           Créée grâce à quelques jeunes muzillacais engagés et désireux de
           faire connaitre
@@ -72,14 +74,13 @@ include "head.php";
   </div>
 </section>
 
-<section >
-<div class="container-fluid bg-veryDark">
+<section class="container-fluid bg-veryDark">
   <div class="container ">
     <div class="row">
-        <div class="col-12 col-md-6 col-lg-6 order-md-1 py-5">
+        <div class="col-12 col-md-6 col-lg-6 order-md-1 py-5  ">
           <img src="../images/1x/benevolat.png" alt="benevolat" width="600px" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0">
         </div>
-        <div class="col-12 col-md-4 col-lg-6 order-md-2 my-auto pb-3">
+        <div class="col-12 col-md-4 col-lg-6 order-md-2 my-auto pb-3 ">
           <h2 class="pb-4">Nous avons besoin de vous !</h2>
           <h3 class="pb-4">Devenez bénévoles et soyez acteur de la vie du bourg</h3>
           <div class="text-center text-md-left">
@@ -91,43 +92,31 @@ include "head.php";
   </div>
 </div>
 </section>
-
-<section>
-  <div class="container">
-    <div class="row">
-      <div id="my-carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li class="active" data-target="#my-carousel" data-slide-to="0" aria-current="location"></li>
-          <li data-target="#my-carousel" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="" alt="">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Title</h5>
-              <p>Text</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="" alt="">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Title</h5>
-              <p>Text</p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#my-carousel" data-slide="prev" role="button">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#my-carousel" data-slide="next" role="button">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+<section class="my-auto ">
+  <div class="container h-lg ">
+    <div class="row my-auto">
+      <div class="card col-md-3 px-2 mx-5 text-center">
+        <p>Bénévoles</p>
+        <h2 class="text-veryDark"> 
+         <div class="count" data-target="80">0</div> +
+        </h2>
+      </div>
+      <div class="card col-md-3 px-2 mx-5 text-center">
+        <p>Ouvert depuis</p>
+        <h2 class="text-veryDark">
+         <div class="counter" data-target="5">0</div> ans
+        </h2>
+      </div>
+      <div class="card col-md-3 px-2 mx-5 text-center">
+        <p>Salarié</p>
+        <h2 class="text-veryDark">
+          <div class="counter" data-target="3">0</div> CDI
+        </h2>
       </div>
     </div>
   </div>
 </section>
+
     <?php
     include "../elements/footer.php";
     ?>
@@ -141,5 +130,7 @@ include "head.php";
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
+    
   </body>
 </html>

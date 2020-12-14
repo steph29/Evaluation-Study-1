@@ -1,4 +1,4 @@
-<footer class="container-fluid">
+<footer class="container-fluid h-100">
   <div class="container-fluid d-flex justify-content-center bg-light gy-5">
     <div class="container container-attribution text-center align-self-center">
        <a href="https://www.facebook.com/EpissureArzano" target="_blank"><i class="fab fa-facebook-f fa-2x pr-4 pt-5"></i></a>
