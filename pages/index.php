@@ -20,7 +20,7 @@ include "head.php";
   <span
      class="txt-rotate"
      data-period="2000"
-     data-rotate='[ " associative.", " locale.", " bio.", " sympa!"]'></span>
+     data-rotate='[ " associative", " locale", " bio", " sympa!"]'></span>
 </p>
                 </div>
                 
@@ -98,19 +98,19 @@ include "head.php";
       <div class="card col-md-3 px-2 mx-5 text-center">
         <p>Bénévoles</p>
         <h2 class="text-veryDark"> 
-         <div class="count" data-target="80">0</div> +
+         <div class="count" data-target="80">0</div> 
         </h2>
       </div>
       <div class="card col-md-3 px-2 mx-5 text-center">
         <p>Ouvert depuis</p>
         <h2 class="text-veryDark">
-         <div class="counter" data-target="5">0</div> ans
+         <div class="counte" data-target="2015">0</div> 
         </h2>
       </div>
       <div class="card col-md-3 px-2 mx-5 text-center">
         <p>Salarié</p>
         <h2 class="text-veryDark">
-          <div class="counter" data-target="3">0</div> CDI
+          <div class="counter" data-target="3">0</div> 
         </h2>
       </div>
     </div>

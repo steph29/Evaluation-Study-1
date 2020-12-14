@@ -59,15 +59,16 @@ window.onload = function () {
 
 const counters = document.querySelectorAll(".counter");
 const counts = document.querySelectorAll(".count");
+const countes = document.querySelectorAll(".counte");
 
-function numberCount(count, timeOut) {
+function numberCount(count, timeOut, inc) {
   count.forEach((counts) => {
     const updateCounts = () => {
       const target = +counts.getAttribute("data-target");
       const countInnerText = +counts.innerText;
 
       if (countInnerText < target) {
-        counts.innerText = Math.ceil(countInnerText + 1);
+        counts.innerText = Math.ceil(countInnerText + inc);
         setTimeout(updateCounts, timeOut);
       } else {
         counts.innerText = target;
@@ -77,5 +78,6 @@ function numberCount(count, timeOut) {
   });
 }
 
-numberCount(counters, 100);
-numberCount(counts, 10);
+numberCount(counters, 100, 1);
+numberCount(counts, 10, 1);
+numberCount(countes, 80, 55);
