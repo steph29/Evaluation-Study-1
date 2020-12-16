@@ -27,8 +27,8 @@ include "head.php";
     <div class="card container shadow-sm  pt-8 card-contact">
       <div class="card-body">
         <h5 class="card-title text-center">
-          N'hésitez pas à prendre contact avec nous pour avoir de plus ample
-          information ou pour devenir bénévoles !
+          N'hésitez pas à prendre contact avec nous pour plus d'
+          informations ou pour devenir bénévoles !
         </h5>
         <form class="container">
           <div class="form-group shadow-sm mb-4">

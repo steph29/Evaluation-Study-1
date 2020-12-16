@@ -79,23 +79,45 @@ function numberCount(count, timeOut, inc) {
   });
 }
 
-numberCount(counters, 100, 1);
-numberCount(counts, 10, 1);
-numberCount(countes, 80, 55);
-
 // MAP
 var coord = [47.9011, -3.44145];
-var mymap = L.map("mapid").setView(coord, 13);
+var mymap = L.map("mapid", { zoomControl: false }).setView(coord, 13);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution:
     'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-  minZoom: 9,
+  minZoom: 13,
   maxZoom: 18,
   id: "mapbox/streets-v11",
   tileSize: 512,
   zoomOffset: -1,
   accessToken: "your.mapbox.access.token",
-  zoomControl: false,
 }).addTo(mymap);
 
 var marker = L.marker(coord).addTo(mymap);
+
+//animation card
+const ratio = 0.5;
+const options = {
+  root: null,
+  rootMargin: "0px",
+  threshold: ratio,
+};
+
+const handleIntersect = function (entries, observer) {
+  entries.forEach(function (entry) {
+    if (entry.intersectionRatio > ratio) {
+      entry.target.classList.add("reveal-visible");
+      numberCount(counts, 40, 1);
+      numberCount(countes, 80, 55);
+      numberCount(counters, 100, 1);
+      observer.unobserve(entry.target);
+    }
+  });
+};
+
+const observer = new IntersectionObserver(handleIntersect, options);
+observer.observe(
+  document.querySelectorAll(".reveal").forEach(function (r) {
+    observer.observe(r);
+  })
+);

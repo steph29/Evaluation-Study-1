@@ -5,16 +5,16 @@ include "head.php";
 ?>
   <body class="mx-auto">
     <section class="section-title ">
-      <div class=" container-title">
+      <div class=" container-title h-100">
       <?php
        include "../elements/header.php";
        ?>
-        <div class="container title justify-content-center">
+        <div class="container-fluid title justify-content-center reveal">
           <div class="row align-items-center">
-                <div class="col-12 col-md-6 col-lg-6 order-md-2">
+                <div class="col-12 col-md-6 col-lg-8 order-md-2">
                   <img src="/images/logo_courses.png" alt="courses" width="1000px" id="logo" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0">
                   </div>
-                <div class="col-12 col-md-4 col-lg-6 order-md-1">
+                <div class="col-12 col-md-4 col-lg-4 order-md-1">
                     <h1 class="display-3 text-center text-md-center">Le régal d'Épissure</h1>
                       <p class="lead text-center text-lg-center text-muted mb-6 mb-lg-8">Épicerie 
                         <span
@@ -32,7 +32,7 @@ include "head.php";
 
 <section class=" container section-text pt-8 pt-md-11 bg-gradient-light">
     <div class="row my-auto">
-      <div class="container-text px-3 col">    
+      <div class="container-text px-3 col  ">    
           <p >
             Créée grâce à quelques jeunes muzillacais engagés et désireux de
             faire connaitre
@@ -73,16 +73,16 @@ include "head.php";
   </div>
 </section>
 
-<section class="container-fluid bg-veryDark container-blue">  
-    <div class="row justify-content-around px-5 my-auto h-100 ">
-        <div class="col-12 col-md-6 col-lg-4 order-md-1 py-5 my-auto">
+<section class="container-fluid bg-veryDark container-blue ">  
+    <div class="row justify-content-around px-5 my-auto h-100 reveal">
+        <div class="col-12 col-md-6 col-lg-4 order-md-1 py-5 my-auto ">
           <img src="../images/1x/benevolat.png" alt="benevolat" width="800px" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 ">
         </div>
         <div class="col-12 col-md-4 col-lg-4 order-md-2 my-auto pb-3 ">
           <h2 class="pb-4 need">Nous avons besoin de vous !</h2>
           <h3 class="pb-4">Devenez bénévoles et soyez acteur de la vie du bourg</h3>
           <div class="text-center text-md-left">
-                    <button class="btn btn-primary btn-lg " type="button" aria-label="Devenir_ Benevole">Devenir bénévole</button>
+                    <button class="btn btn-primary btn-lg " type="button" aria-label="Devenir_ Benevole" ><a href="/pages/contact.php">Devenir bénévole</a> </button>
                 </div>
          </div>
     </div>
@@ -93,24 +93,32 @@ include "head.php";
 <section class="my-auto h-100 my-auto">
   <div class="container container-card ">
     <div class="row justify-content-center h-100">
-      <div class="card cardMoving col-md-3 px-2 mx-5 text-center my-auto">
+      <div class="card cardMoving col-md-3 px-2 mx-5 text-center my-auto reveal ">
         <p>Bénévoles</p>
         <h2 class="text-veryDark"> 
          <div class="count" data-target="80" >0</div> 
         </h2>
       </div>
-      <div class="card cardMoving col-md-3 px-2 mx-5 text-center my-auto">
+      <div class="card cardMoving col-md-3 px-2 mx-5 text-center my-auto reveal ">
         <p>Ouvert depuis</p>
         <h2 class="text-veryDark">
          <div class="counte" data-target="2015">0</div> 
         </h2>
       </div>
-      <div class="card cardMoving col-md-3 px-2 mx-5 text-center my-auto">
+      <div class="card cardMoving col-md-3 px-2 mx-5 text-center my-auto reveal ">
         <p>Salarié</p>
         <h2 class="text-veryDark">
           <div class="counter" data-target="3">0</div> 
         </h2>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-action bg-light">
+  <div class="container h-100">
+    <div class="row justify-content-center">
+      <h2 class="text-primary ">Nos actions</h2>
     </div>
   </div>
 </section>
