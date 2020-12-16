@@ -15,7 +15,7 @@ include "head.php";
       </div>
     </section>
 
-      <section class="section-text py-5">
+      <section class="section-text">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -28,7 +28,7 @@ include "head.php";
               />
               <div class="card-body">
                 <p class="card-text">
-                  Des fruits de saisons issus de l'agriculturs biologique local
+                  Des fruits de saisons issus de l'agriculture biologique local
                   !
                 </p>
               </div>
@@ -78,7 +78,7 @@ include "head.php";
 
               <div class="card-body">
                 <p class="card-text">
-                  Les meilleurs produits que la Bretagne est à vous offrir !
+                  Les meilleurs produits que la Bretagne ait à vous offrir !
                 </p>
               </div>
             </div>
@@ -119,22 +119,22 @@ include "head.php";
         </div>
       </div>
     </section>
-
-
-    <div class="container ">
+  <span class="space"></span>
+<section class="section-table py-5">
+<div class="container ">
       <div class="card shadow-sm  text-center">
       <div class="card-body">
         <h5 class="card-title">Horaire d'ouverture</h5>
      <table class="table table-bordered table-third">
-  <thead>
+      <thead>
     <tr>
       <th scope="col">jour</th>
       <th scope="col">Matin</th>
       <th scope="col">Après-midi</th>
       
     </tr>
-  </thead>
-  <tbody>
+     </thead>
+   <tbody>
     <tr>
       <th scope="row">Mardi</th>
       <td>09h00 - 12h30</td>
@@ -164,16 +164,16 @@ include "head.php";
     </tr>
     <tr>
       <th scope="row">Dimanche</th>
-      <td >09h30 - 13h00</td>
-      
-      
+      <td >09h30 - 13h00</td>     
     </tr>
-  </tbody>
-</table>
+    </tbody>
+    </table>
       </div>
     </div>
       
     </div>
+</section>
+    
     <?php
     include "../elements/footer.php";
     ?>

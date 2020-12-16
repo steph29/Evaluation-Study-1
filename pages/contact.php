@@ -42,7 +42,7 @@ include "head.php";
           </div>
           <div class="form-group shadow-sm mb-4">
             <label for="message">Votre message</label>
-            <textarea class="form-control" id="message" rows="6"></textarea>
+            <textarea class="form-control" id="message" rows="6" placeholder="Votre message"></textarea>
           </div>
           <input
             class="btn btn-primary btn-lg col-md-2"

@@ -81,3 +81,20 @@ function numberCount(count, timeOut, inc) {
 numberCount(counters, 100, 1);
 numberCount(counts, 10, 1);
 numberCount(countes, 80, 55);
+
+// MAP
+var coord = [47.9011, -3.44145];
+var mymap = L.map("mapid").setView(coord, 13);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution:
+    'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+  minZoom: 9,
+  maxZoom: 18,
+  id: "mapbox/streets-v11",
+  tileSize: 512,
+  zoomOffset: -1,
+  accessToken: "your.mapbox.access.token",
+  zoomControl: false,
+}).addTo(mymap);
+
+var marker = L.marker(coord).addTo(mymap);

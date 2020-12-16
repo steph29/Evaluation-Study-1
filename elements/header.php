@@ -17,26 +17,24 @@
                 class="collapse navbar-collapse justify-content-end"
                 id="navbarNav"
               >
-                <ul class="navbar-nav mx-auto" id="navigation">
-                  <li class="nav-item" >
-                      <a class="nav-link" href="/pages/index.php"
-                        >L'association
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/pages/epicerie.php"
-                      >L'épicerie</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/pages/produits.php"
-                      >Nos produits</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/pages/contact.php">Contact</a>
-                  </li>
-                </ul>
+              <div class="row justify-content-end mr-4">
+                  <ul class="navbar-nav " id="navigation">
+                    <li class="nav-item" >
+                        <a class="nav-link" href="/pages/index.php"
+                          >L'association
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/pages/epicerie.php"
+                        >L'épicerie</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/pages/contact.php">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+                
               </div>
             </nav>
           </div>

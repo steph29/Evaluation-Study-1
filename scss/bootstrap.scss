@@ -60,7 +60,7 @@ body {
   padding: 0;
   display: grid;
   grid-template-columns: 1fr;
-  grid-auto-rows: minmax(600px, auto);
+  grid-auto-rows: minmax(auto, auto);
   color: $secondary;
 }
 header {
@@ -69,10 +69,16 @@ header {
     margin-right: -20px;
   }
 }
+.container-card {
+  height: 400px;
+}
+.container-blue {
+  height: 800px;
+}
 .section-title {
   grid-row: 1;
   width: 100%;
-  height: 600px !important;
+  height: 600px;
   margin: 0;
   .title {
     text-align: center;
@@ -101,22 +107,43 @@ h2 {
     }
   }
 }
-.section-texte {
+.section-text {
   grid-row: 2;
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+.space {
+  height: 100px;
+}
+.section-table {
+  height: 600px;
 }
 .container-text {
   font-size: 1rem;
   color: $secondary;
   text-align: justify;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.cardMoving {
+  transition: margin-right ease-in-out 0.3s;
 }
 .card:hover {
   img {
     opacity: 0.6;
   }
 }
-
-footer {
+.section-map {
   grid-row: 5;
+  height: 400px;
+  #mapid {
+    height: 100%;
+  }
+}
+footer {
+  grid-row: 6;
   background-color: #f8f9fa;
   height: 200px;
   i .fas,
@@ -126,6 +153,22 @@ footer {
   }
 }
 
+.form-control::placeholder {
+  opacity: 0.5;
+}
+
+// Animation
+
+@keyframes fadeUp {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 992px) {
   #navigation {
     li {
