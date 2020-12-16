@@ -57,6 +57,7 @@ window.onload = function () {
   document.body.appendChild(css);
 };
 
+// COUNT ANIMATION
 const counters = document.querySelectorAll(".counter");
 const counts = document.querySelectorAll(".count");
 const countes = document.querySelectorAll(".counte");

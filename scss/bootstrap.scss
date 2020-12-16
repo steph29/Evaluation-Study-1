@@ -91,7 +91,7 @@ header {
     }
   }
 }
-h2 {
+.need {
   font-family: "Kaushan Script", cursive;
   color: white;
   font-size: 3rem;
@@ -118,7 +118,7 @@ h2 {
   height: 100px;
 }
 .section-table {
-  height: 600px;
+  height: 500px;
 }
 .container-text {
   font-size: 1rem;
@@ -142,21 +142,36 @@ h2 {
     height: 100%;
   }
 }
+
+.section-coord {
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 3rem;
+  }
+}
+i .fas,
+i .fab {
+  font-size: 40px;
+  color: $primary;
+}
 footer {
   grid-row: 6;
   background-color: #f8f9fa;
   height: 200px;
-  i .fas,
-  i .fab {
-    font-size: 40px;
-    color: $third;
-  }
 }
 
 .form-control::placeholder {
   opacity: 0.5;
 }
-
+.card-contact,
+.section-epicerie {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
 // Animation
 
 @keyframes fadeUp {

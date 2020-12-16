@@ -10223,7 +10223,7 @@ header .row {
   font-size: 4rem;
 }
 
-h2 {
+.need {
   font-family: "Kaushan Script", cursive;
   color: white;
   font-size: 3rem;
@@ -10251,7 +10251,7 @@ h2 {
 }
 
 .section-table {
-  height: 600px;
+  height: 500px;
 }
 
 .container-text {
@@ -10278,19 +10278,35 @@ h2 {
   height: 100%;
 }
 
+.section-coord p {
+  margin: 0;
+  padding: 0;
+}
+.section-coord h2 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 3rem;
+}
+
+i .fas,
+i .fab {
+  font-size: 40px;
+  color: #6abfae;
+}
+
 footer {
   grid-row: 6;
   background-color: #f8f9fa;
   height: 200px;
 }
-footer i .fas,
-footer i .fab {
-  font-size: 40px;
-  color: #506690;
-}
 
 .form-control::placeholder {
   opacity: 0.5;
+}
+
+.card-contact,
+.section-epicerie {
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 @keyframes fadeUp {

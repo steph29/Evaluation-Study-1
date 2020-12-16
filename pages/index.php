@@ -13,15 +13,15 @@ include "head.php";
           <div class="row align-items-center">
                 <div class="col-12 col-md-6 col-lg-6 order-md-2">
                   <img src="/images/logo_courses.png" alt="courses" width="1000px" id="logo" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0">
-                </div>
+                  </div>
                 <div class="col-12 col-md-4 col-lg-6 order-md-1">
-                    <h1 class="display-3 text-center text-md-left">Le régal d'Épissure</h1>
-                      <p class="lead text-center text-lg-left text-muted mb-6 mb-lg-8">Épicerie 
-  <span
-     class="txt-rotate"
-     data-period="2000"
-     data-rotate='[ " associative", " locale", " bio", " sympa!"]'></span>
-</p>
+                    <h1 class="display-3 text-center text-md-center">Le régal d'Épissure</h1>
+                      <p class="lead text-center text-lg-center text-muted mb-6 mb-lg-8">Épicerie 
+                        <span
+                          class="txt-rotate"
+                          data-period="2000"
+                          data-rotate='[ " associative", " locale", " bio", " sympa!"]'></span>
+                      </p>
                 </div>
                 
             </div>
@@ -79,7 +79,7 @@ include "head.php";
           <img src="../images/1x/benevolat.png" alt="benevolat" width="800px" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 ">
         </div>
         <div class="col-12 col-md-4 col-lg-4 order-md-2 my-auto pb-3 ">
-          <h2 class="pb-4">Nous avons besoin de vous !</h2>
+          <h2 class="pb-4 need">Nous avons besoin de vous !</h2>
           <h3 class="pb-4">Devenez bénévoles et soyez acteur de la vie du bourg</h3>
           <div class="text-center text-md-left">
                     <button class="btn btn-primary btn-lg " type="button" aria-label="Devenir_ Benevole">Devenir bénévole</button>
@@ -116,9 +116,9 @@ include "head.php";
 </section>
 
 <section class="section-map">
-<!-- carte -->
-<div id="mapid" ></div>
-  
+<div id="mapid" >
+
+</div>  
 </div>
 </section>
 

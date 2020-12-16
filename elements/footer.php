@@ -1,4 +1,27 @@
 <footer class="container-fluid h-100">
+  <section class="section-coord bg-light">
+  <div class="container ">
+    <div class="mx-auto text-center " >
+      <div class="col-sm-12 pt-4 "> 
+        <h2 class="find py-3 text-primary ">Vous nous cherchez?</h2>
+      </div>
+      <div class="adresse col-sm-12 mx-auto ">
+        <p>10 rue Auguste Brizeu</p>
+        <p>29300 Arzano</p>
+
+        <div class="row justify-content-center pr-4">
+          <div class="pr-2"> 
+            <i class="fas fa-phone"></i> 
+          </div>      
+          <div>
+             <p>02 98 71 57 05</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
   <div class="container-fluid d-flex justify-content-center bg-light gy-5">
     <div class="container container-attribution text-center align-self-center">
        <a href="https://www.facebook.com/EpissureArzano" target="_blank"><i class="fab fa-facebook-f fa-2x pr-4 pt-5"></i></a>

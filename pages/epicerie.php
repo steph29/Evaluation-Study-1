@@ -4,18 +4,27 @@
 include "head.php";
 ?>
   <body class="mx-auto">
-    <section class="section-title">
-      <div class="container-fluid container-title">
-        <?php
+       <section class="section-title ">
+      <div class=" container-title">
+      <?php
        include "../elements/header.php";
        ?>
-        <div class="container title">
-          <h1>L'épicerie</h1>
+        <div class="container title justify-content-center">
+          <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 order-md-2">
+                  <img src="/images/1x/contact.png" alt="courses" width="800px" id="logo" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0">
+                  </div>
+                <div class="col-12 col-md-4 col-lg-6 order-md-1">
+                    <h1 class="display-3 text-center text-md-center">L'épicerie</h1>
+                      
+                </div>
+                
+            </div>
+          </div>
         </div>
-      </div>
     </section>
 
-      <section class="section-text">
+      <section class="section-text section-epicerie bg-veryDark py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -119,8 +128,8 @@ include "head.php";
         </div>
       </div>
     </section>
-  <span class="space"></span>
-<section class="section-table py-5">
+ 
+<section class="section-table">
 <div class="container ">
       <div class="card shadow-sm  text-center">
       <div class="card-body">
@@ -173,6 +182,8 @@ include "head.php";
       
     </div>
 </section>
+
+
     
     <?php
     include "../elements/footer.php";
