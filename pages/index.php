@@ -9,12 +9,13 @@ include "head.php";
       <?php
        include "../elements/header.php";
        ?>
-        <div class="container-fluid title justify-content-center reveal">
+      
+          <div class="container title justify-content-center reveal">
           <div class="row align-items-center">
-                <div class="col-12 col-md-6 col-lg-8 order-md-2">
+           <div class=" col-12 col-lg-8 order-md-2 r-0">
                   <img src="/images/logo_courses.png" alt="courses" width="1000px" id="logo" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0">
-                  </div>
-                <div class="col-12 col-md-4 col-lg-4 order-md-1">
+                </div>
+                <div class=" col-12 col-lg-4 order-md-1">
                     <h1 class="display-3 text-center text-md-center">Le régal d'Épissure</h1>
                       <p class="lead text-center text-lg-center text-muted mb-6 mb-lg-8">Épicerie 
                         <span
@@ -27,6 +28,10 @@ include "head.php";
             </div>
           </div>
         </div>
+      
+        
+      
+        
     </section>
 
 
@@ -34,41 +39,26 @@ include "head.php";
     <div class="row my-auto">
       <div class="container-text px-3 col  ">    
           <p >
-            Créée grâce à quelques jeunes muzillacais engagés et désireux de
+            Créée grâce à quelques arzanois engagés et désireux de
             faire connaitre
             <strong
-              >une agriculture respectueuse de l'homme et de son
-              environnement,</strong
-            >
-            l'association Terre en Vie
-            <strong
-              >oeuvre pour le développement d'une planète plus responsable et
-              plus solidaire.</strong
-            ><br /><br />
-            25 ans après notre première Foire Bio à Muzillac, cet événement
-            accueille,
-            <strong>tous les derniers week-ends (entiers) de septembre</strong>
-            plus de <strong>120 exposants</strong> et
-            <strong>6000 visiteurs.</strong><br />
-            Terre en Vie élargie sa réflexion sur
-            <strong>le respect de l'environnement</strong> et
-            <strong
-              >le développement de l'Agriculture biologique, l'éco-habitat, le
-              commerce équitable</strong
-            >... en organisant toute l'année des conférences, des rencontres et
-            des séances de Ciné-débats. <br /><br />
-            L'association Terre en Vie c'est aussi la création d'un
-            <strong>point de vente de produits bio</strong> à Muzillac : la
-            Biocoop Etamine, qui deviendra la Panier Bio en 2003.
-            <br />
-            Consacrant une attention particulière aux animations aussi bien pour
-            les enfants que pour les adultes, de nombreux intervenants et
-            groupes de musique locaux interviennent durant tout le week-end.
-            C'est pour cette raison , qu'en 2017, la
-            <strong>Foire bio</strong> de Muzillac devient
-            <strong><span>LA BIO EN FÊTE</span>!</strong>
-          </p>
-       
+              >leur petit village</strong
+            >, l' <strong>épicerie associative</strong>  est née dans l'idée de faire revivre un bourg en voie d'endormissement.
+          </p><br>
+          <h5>
+            Pourquoi une épicerie associative?
+          </h5>
+          <p> - Pour <strong> maintenir un commerce de proximité</strong>, en lien avec les commerces existants et les associations locales<br>
+         - Pour <strong>résister</strong>  à la désertification des bourgs ruraux en créant un commerce qui répond aux besoins des habitants<br>
+         - offrir une <strong>alternative locale</strong>  aux circuits de la grande distribution<br>
+         - <strong>Dynamiser</strong>  le bourg et créer un lieu de rencontre ouvert et acceuillant. L'épicerie se veut être un espace d'acceuil et d'échange<br>
+         - Aider à <strong>soutenir les emplois locaux</strong>  ( actuellement nous avons 3 salariés<br>
+         -  <strong>Etre acteur</strong>  sur son lieu de vie<br>
+          - Amorcer une <strong>réflexion alimentaire</strong> </p><br>
+
+          <h5>Qu'est-ce qu'une épicerie associative? </h5>
+          <p>C'est un commerce crée par une association de citoyens, loi 1901. Cette épicerie propose des produits locaux, classiques et biologiques. Elle privilégie la solidarité producteurs / consommateurs sur le territoire. Elle participe au développement du lien social et à l'animation du bourg "tout en faisant ses courses". 3 salariés travaillent aujourd'hui à temps plein à l'épicerie. Mais convaincu que le fonctionnement d'un tel commerce est d'abord lié à la volonté de le faire vivre, nous demandons à des bénévoles d'aider en commerce. Que ce soit à la découpe des produits ( boucherie, fromagerie), à la caisse ou encore à la mise en rayon.   </p>
+          <br>
       </div>
   </div>
 </section>
@@ -82,7 +72,7 @@ include "head.php";
           <h2 class="pb-4 need">Nous avons besoin de vous !</h2>
           <h3 class="pb-4">Devenez bénévoles et soyez acteur de la vie du bourg</h3>
           <div class="text-center text-md-left">
-                    <button class="btn btn-primary btn-lg " type="button" aria-label="Devenir_ Benevole" ><a href="/pages/contact.php">Devenir bénévole</a> </button>
+                    <button class="btn btn-primary btn-lg col-md-8 col-lg-4  " aria-label="Devenir_ Benevole" ><a href="/pages/contact.php" class="text-white">Devenir bénévole</a> </button>
                 </div>
          </div>
     </div>
@@ -115,14 +105,6 @@ include "head.php";
   </div>
 </section>
 
-<section class="section-action bg-light">
-  <div class="container h-100">
-    <div class="row justify-content-center">
-      <h2 class="text-primary ">Nos actions</h2>
-    </div>
-  </div>
-</section>
-
 <section class="section-map">
 <div id="mapid" >
 
@@ -151,3 +133,8 @@ include "head.php";
     
   </body>
 </html>
+
+
+
+
+

@@ -11156,10 +11156,17 @@ body {
 
 header {
   padding: 1rem 0;
+  border-bottom: 1px solid #6abfae;
 }
 
 header .row {
   margin-right: -20px;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container-card {
@@ -11174,7 +11181,7 @@ header .row {
   -ms-grid-row: 1;
   grid-row: 1;
   width: 100%;
-  height: 600px;
+  height: 800px;
   margin: 0;
 }
 
@@ -11187,13 +11194,14 @@ header .row {
 .section-title .title h1 {
   font-family: "Kaushan Script", cursive;
   color: #6abfae;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
+.need,
 h2 {
   font-family: "Kaushan Script", cursive;
   color: white;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 #navigation {
@@ -11204,6 +11212,11 @@ h2 {
   color: #506690;
   opacity: 0.8;
   font-size: 0.8em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.concert {
+  height: 600px;
 }
 
 .section-text {
@@ -11214,14 +11227,12 @@ h2 {
 .section-text p {
   margin: 0;
   padding: 0;
-}
-
-.space {
-  height: 100px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2rem;
 }
 
 .section-table {
-  height: 600px;
+  height: 500px;
 }
 
 .container-text {
@@ -11230,11 +11241,6 @@ h2 {
   text-align: justify;
   margin-top: 100px;
   margin-bottom: 100px;
-}
-
-.cardMoving {
-  -webkit-transition: margin-right ease-in-out 0.3s;
-  transition: margin-right ease-in-out 0.3s;
 }
 
 .card:hover img {
@@ -11248,7 +11254,22 @@ h2 {
 }
 
 .section-map #mapid {
-  height: 180px;
+  height: 100%;
+}
+
+.section-coord p {
+  margin: 0;
+  padding: 0;
+}
+
+.section-coord h2 {
+  font-size: 3rem;
+}
+
+i .fas,
+i .fab {
+  font-size: 40px;
+  color: #6abfae;
 }
 
 footer {
@@ -11258,10 +11279,8 @@ footer {
   height: 200px;
 }
 
-footer i .fas,
-footer i .fab {
-  font-size: 40px;
-  color: #506690;
+footer .phone {
+  border-bottom: 1px solid #6abfae;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -11278,6 +11297,26 @@ footer i .fab {
 
 .form-control::placeholder {
   opacity: 0.5;
+}
+
+.card-contact,
+.section-epicerie {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.reveal {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+}
+
+.reveal-visible {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: 0.75s ease-in-out;
+  transition: 0.75s ease-in-out;
 }
 
 @-webkit-keyframes fadeUp {
@@ -11303,6 +11342,9 @@ footer i .fab {
 }
 
 @media screen and (max-width: 992px) {
+  .section-title {
+    height: 650px;
+  }
   #navigation li a {
     color: #506690;
   }

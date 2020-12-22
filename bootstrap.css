@@ -10193,12 +10193,13 @@ body {
 
 header {
   padding: 1rem 0;
+  border-bottom: 1px solid #6abfae;
 }
 header .row {
   margin-right: -20px;
 }
 
-button > a {
+a:hover {
   color: white;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
@@ -10246,6 +10247,10 @@ h2 {
   font-family: "Montserrat", sans-serif;
 }
 
+.concert {
+  height: 600px;
+}
+
 .section-text {
   grid-row: 2;
 }
@@ -10272,13 +10277,8 @@ h2 {
   opacity: 0.6;
 }
 
-.section-action {
-  grid-row: 5;
-  height: 600px;
-}
-
 .section-map {
-  grid-row: 6;
+  grid-row: 5;
   height: 400px;
 }
 .section-map #mapid {
@@ -10300,9 +10300,12 @@ i .fab {
 }
 
 footer {
-  grid-row: 7;
+  grid-row: 6;
   background-color: #f8f9fa;
   height: 200px;
+}
+footer .phone {
+  border-bottom: 1px solid #6abfae;
 }
 
 .form-control::placeholder {
@@ -10337,6 +10340,10 @@ footer {
   }
 }
 @media screen and (max-width: 992px) {
+  .section-title {
+    height: 650px;
+  }
+
   #navigation li a {
     color: #506690;
   }

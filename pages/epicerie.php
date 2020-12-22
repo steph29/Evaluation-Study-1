@@ -11,10 +11,10 @@ include "head.php";
        ?>
         <div class="container title justify-content-center">
           <div class="row align-items-center">
-                <div class="col-12 col-md-6 col-lg-6 order-md-2">
-                  <img src="/images/1x/contact.png" alt="courses" width="800px" id="logo" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0">
+                <div class="col-12 col-lg-8 order-md-2 r-0">
+                  <img src="/images/1x/Fichier 1.png" alt="courses" width="1000px" id="logo" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0">
                   </div>
-                <div class="col-12 col-md-4 col-lg-6 order-md-1">
+                <div class="col-12 col-lg-4 order-md-1">
                     <h1 class="display-3 text-center text-md-center">L'épicerie</h1>
                       
                 </div>

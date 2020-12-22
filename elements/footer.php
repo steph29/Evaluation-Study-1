@@ -5,15 +5,15 @@
       <div class="col-sm-12 pt-4 "> 
         <h2 class="find py-3 text-primary ">Vous nous cherchez?</h2>
       </div>
-      <div class="adresse col-sm-12 mx-auto ">
+      <div class="adresse col-sm-12 mx-aut ">
         <p>10 rue Auguste Brizeu</p>
         <p>29300 Arzano</p>
 
-        <div class="row justify-content-center pr-4">
+        <div class="row justify-content-center pr-4 phone w-50 mx-auto pb-5 ">
           <div class="pr-2"> 
             <i class="fas fa-phone"></i> 
           </div>      
-          <div>
+          <div >
              <p>02 98 71 57 05</p>
           </div>
 

@@ -17,24 +17,24 @@
                 class="collapse navbar-collapse justify-content-center "
                 id="navbarNav"
               >
-              <div class="row justify-content-end mr-4">
+              <div class="row justify-content-end mr-4 text-align-center">
                   <ul class="navbar-nav " id="navigation">
-                    <li class="nav-item px-5" >
+                    <li class="nav-item px-3" >
                         <a class="nav-link" href="/pages/index.php"
                           >L'association
                         </a>
                     </li>
-                    <li class="nav-item px-5">
+                    <li class="nav-item px-3">
                       <a class="nav-link" href="/pages/epicerie.php"
                         >L'épicerie</a
                       >
                     </li>
-                    <li class="nav-item px-5">
-                      <a class="nav-link" href="/pages/contact.php">Contact</a>
+                    <li class="nav-item px-3">
+                      <a class="nav-link" href="/pages/concert.php">Concert</a>
                     </li>
+                    <button class="btn btn-primary btn-lg mx-3" class="justify-content-end mr-4"><a href="/pages/contact.php" class="text-white">S'incrire</a> </button>
                   </ul>
                 </div>
-                <but class="btn btn-primary btn-lg"><a href="#">S'incrire</a> </but>
               </div>
             </nav>
           </div>

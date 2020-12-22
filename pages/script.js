@@ -96,7 +96,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 var marker = L.marker(coord).addTo(mymap);
 
 //animation card
-const ratio = 0.5;
+const ratio = 0.4;
 const options = {
   root: null,
   rootMargin: "0px",
