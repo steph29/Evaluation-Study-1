@@ -54,7 +54,7 @@ include "head.php";
               <div class="card-body">
                 <p class="card-text">
                   Des fruits de saisons bio et beau pour toujours avoir la pêche
-                  et la banane !
+                  !
                 </p>
               </div>
             </div>
@@ -70,8 +70,7 @@ include "head.php";
 
               <div class="card-body">
                 <p class="card-text">
-                  Une vitrine des fromages les plus raffinés ainsi que des
-                  fromages locaux !
+                  Une vitrine des fromages raffinés et locaux !
                 </p>
               </div>
             </div>
@@ -103,7 +102,7 @@ include "head.php";
 
               <div class="card-body">
                 <p class="card-text">
-                  Nous favorisons les produits locaux, quelque soit le type de
+                  Nous favorisons le local quelque soit le type de
                   produits !
                 </p>
               </div>

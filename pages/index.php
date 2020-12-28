@@ -17,12 +17,8 @@ include "head.php";
                 </div>
                 <div class=" col-12 col-lg-4 order-md-1">
                     <h1 class="display-3 text-center text-md-center">Le régal d'Épissure</h1>
-                      <p class="lead text-center text-lg-center text-muted mb-6 mb-lg-8">Épicerie 
-                        <span
-                          class="txt-rotate"
-                          data-period="2000"
-                          data-rotate='[ " associative", " locale", " bio", " sympa!"]'></span>
-                      </p>
+                      <h4 class=" text-center text-lg-center mb-6 mb-lg-8">Épicerie associative
+                      </h4>
                 </div>
                 
             </div>
@@ -83,18 +79,20 @@ include "head.php";
 <section class="my-auto h-100 my-auto">
   <div class="container container-card ">
     <div class="row justify-content-center h-100">
-      <div class="card cardMoving col-md-3 px-2 mx-5 text-center my-auto reveal ">
+      <div class="card  cardMoving col-md-3 px-2 mx-5 text-center my-auto reveal ">
         <p>Bénévoles</p>
         <h2 class="text-veryDark"> 
          <div class="count" data-target="80" >0</div> 
         </h2>
       </div>
+      <span class= "trait my-auto "></span>
       <div class="card cardMoving col-md-3 px-2 mx-5 text-center my-auto reveal ">
         <p>Ouvert depuis</p>
         <h2 class="text-veryDark">
          <div class="counte" data-target="2015">0</div> 
         </h2>
       </div>
+      <span class= "trait my-auto "></span>
       <div class="card cardMoving col-md-3 px-2 mx-5 text-center my-auto reveal ">
         <p>Salarié</p>
         <h2 class="text-veryDark">
@@ -105,17 +103,16 @@ include "head.php";
   </div>
 </section>
 
-<section class="section-map">
-<div id="mapid" >
-
-</div>  
-</div>
+<section class="container-fluid section-map m-0 p-0 img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0">
+ 
 </section>
+
 
 
     <?php
     include "../elements/footer.php";
     ?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -126,9 +123,6 @@ include "head.php";
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-   crossorigin=""></script>
     <script src="./script.js"></script>
     
   </body>

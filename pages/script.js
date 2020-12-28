@@ -79,22 +79,6 @@ function numberCount(count, timeOut, inc) {
   });
 }
 
-// MAP
-var coord = [47.9011, -3.44145];
-var mymap = L.map("mapid", { zoomControl: false }).setView(coord, 13);
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution:
-    'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-  minZoom: 13,
-  maxZoom: 18,
-  id: "mapbox/streets-v11",
-  tileSize: 512,
-  zoomOffset: -1,
-  accessToken: "your.mapbox.access.token",
-}).addTo(mymap);
-
-var marker = L.marker(coord).addTo(mymap);
-
 //animation card
 const ratio = 0.4;
 const options = {
