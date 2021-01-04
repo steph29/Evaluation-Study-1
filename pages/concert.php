@@ -40,15 +40,15 @@ include "head.php";
     </div>
     <div class="container mb-5 ">
         <div class="row justify-content-center">
-            <div class="card mx-4 shadow-sm">
+            <div class="card col-md-4 mx-4 shadow-sm px-2 my-2 mx-3">
                 <div class="card-body ">
                     <h5 class="card-title text-center">2017</h5>
                     
                     <img src="/images/affiche1.jpg" alt="concert" width="400px" class="img-fluid mw-md-150 mw-lg-160 mb-6 mb-md-0">
                 </div>
             </div>
-            <div class="card mx-4">
-                <div class="card-body shadow-sm">
+            <div class="card col-md-4 mx-4 shadow-sm px-2 my-2 mx-3">
+                <div class="card-body">
                     <h5 class="card-title text-center">2018</h5>
                     
                     <img src="/images/Tartifetard2018.jpg" alt="concert" width="400px" class="img-fluid mw-md-150 mw-lg-160 mb-6 mb-md-0">
