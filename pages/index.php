@@ -12,7 +12,7 @@ include "head.php";
       
           <div class="container title justify-content-center reveal">
           <div class="row align-items-center">
-           <div class=" col-12 col-lg-8 order-md-2 r-0">
+           <div class=" col-12 col-lg-4 order-md-2 r-0">
                   <img src="../images/logo_courses.png" alt="courses" width="1000px" id="logo" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0">
                 </div>
                 <div class=" col-12 col-lg-4 order-md-1">
@@ -60,7 +60,7 @@ include "head.php";
 </section>
 
 <section class="container-fluid bg-veryDark container-blue ">  
-    <div class="row justify-content-around px-5 my-auto h-100 reveal">
+    <div class="row justify-content-around px-5 my-auto h-100 ">
         <div class="col-12 col-sm-12 col-md-12  col-lg-4 order-md-1  my-auto ">
           <img src="../images/1x/benevolat.png" alt="benevolat" width="800px" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 ">
         </div>
