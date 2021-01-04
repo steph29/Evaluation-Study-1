@@ -7,15 +7,12 @@
       </div>
       <div class="adresse col-sm-12 mx-aut ">
         <p>10 rue Auguste Brizeu</p>
-        <p>29300 Arzano</p>
+        <p>29 300 Arzano</p>
 
-        <div class="row justify-content-center pr-4 phone w-50 mx-auto pb-5 ">
-          <div class="pr-2"> 
-            <i class="fas fa-phone"></i> 
-          </div>      
-          <div >
+        <div class="row justify-content-center  phone w-50 mx-auto pb-5 ">
+    
              <p>02 98 71 57 05</p>
-          </div>
+          
 
         </div>
       </div>

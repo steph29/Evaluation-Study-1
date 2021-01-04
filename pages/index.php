@@ -12,8 +12,8 @@ include "head.php";
       
           <div class="container title justify-content-center reveal">
           <div class="row align-items-center">
-           <div class=" col-12 col-lg-8 order-md-2 r-0">
-                  <img src="/images/logo_courses.png" alt="courses" width="1000px" id="logo" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0">
+           <div class=" col-12 col-lg-4 order-md-2 r-0">
+                  <img src="../images/logo_courses.png" alt="courses" width="1000px" id="logo" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0">
                 </div>
                 <div class=" col-12 col-lg-4 order-md-1">
                     <h1 class="display-3 text-center text-md-center">Le régal d'Épissure</h1>
@@ -60,15 +60,15 @@ include "head.php";
 </section>
 
 <section class="container-fluid bg-veryDark container-blue ">  
-    <div class="row justify-content-around px-5 my-auto h-100 reveal">
-        <div class="col-12 col-md-6 col-lg-4 order-md-1 py-5 my-auto ">
+    <div class="row justify-content-around px-5 my-auto h-100 ">
+        <div class="col-12 col-sm-12 col-md-12  col-lg-4 order-md-1  my-auto ">
           <img src="../images/1x/benevolat.png" alt="benevolat" width="800px" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 ">
         </div>
-        <div class="col-12 col-md-4 col-lg-4 order-md-2 my-auto pb-3 ">
+        <div class="col-12 col-md-8 col-lg-4 order-md-2 my-auto pb-3 ">
           <h2 class="pb-4 need">Nous avons besoin de vous !</h2>
           <h3 class="pb-4">Devenez bénévoles et soyez acteur de la vie du bourg</h3>
           <div class="text-center text-md-left">
-                    <button class="btn btn-primary btn-lg col-md-8 col-lg-4  " aria-label="Devenir_ Benevole" ><a href="/pages/contact.php" class="text-white">Devenir bénévole</a> </button>
+                    <button class="btn btn-primary btn-lg col-md-12 col-lg-12  " aria-label="Devenir_ Benevole" ><a href="/pages/contact.php" class="text-white">Devenir bénévole</a> </button>
                 </div>
          </div>
     </div>
@@ -79,26 +79,40 @@ include "head.php";
 <section class="my-auto h-100 my-auto">
   <div class="container container-card ">
     <div class="row justify-content-center h-100">
-      <div class="card  cardMoving col-md-3 px-2 mx-5 text-center my-auto reveal ">
+      <div class=" col-lg-2 col-md-5 px-2 mx-5 text-center my-auto reveal">
+         <div class="card  ">
         <p>Bénévoles</p>
         <h2 class="text-veryDark"> 
          <div class="count" data-target="80" >0</div> 
         </h2>
       </div>
-      <span class= "trait my-auto "></span>
-      <div class="card cardMoving col-md-3 px-2 mx-5 text-center my-auto reveal ">
+      </div>
+      <div class="col  trait px-2 mx-5 text-center my-auto">
+        <span></span>
+     </div>
+     <div class="col-lg-2 col-md-5 px-2 mx-5 text-center my-auto reveal">
+       
+      <div class="card ">
         <p>Ouvert depuis</p>
         <h2 class="text-veryDark">
          <div class="counte" data-target="2015">0</div> 
         </h2>
       </div>
-      <span class= "trait my-auto "></span>
-      <div class="card cardMoving col-md-3 px-2 mx-5 text-center my-auto reveal ">
+     </div>
+     <div class="col  trait px-2 mx-5 text-center my-auto">
+        <span></span>
+     </div>
+     
+     <div class="col-lg-2 col-md-5 px-2 mx-5 text-center my-auto reveal">
+      
+      <div class="card   ">
         <p>Salarié</p>
         <h2 class="text-veryDark">
           <div class="counter" data-target="3">0</div> 
         </h2>
       </div>
+     </div>
+      
     </div>
   </div>
 </section>
@@ -112,17 +126,9 @@ include "head.php";
     <?php
     include "../elements/footer.php";
     ?>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
     
   </body>
