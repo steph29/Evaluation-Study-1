@@ -38,7 +38,6 @@ include "head.php";
               <div class="card-body">
                 <p class="card-text">
                   Des fruits de saisons issus de l'agriculture biologique local
-                  !
                 </p>
               </div>
             </div>
@@ -70,7 +69,7 @@ include "head.php";
 
               <div class="card-body">
                 <p class="card-text">
-                  Une vitrine des fromages raffinés et locaux !
+                  Une vitrine des fromages raffinés et locaux, pour tous les gouts !
                 </p>
               </div>
             </div>
@@ -78,7 +77,7 @@ include "head.php";
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <img
-                src="/images/bières.jpg"
+                src="/images/bieres.jpg"
                 alt="bieres"
                 width="100%"
                 height="225px"
@@ -91,7 +90,7 @@ include "head.php";
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 ">
             <div class="card mb-4 shadow-sm">
               <img
                 src="/images/local.jpg"
@@ -103,7 +102,7 @@ include "head.php";
               <div class="card-body">
                 <p class="card-text">
                   Nous favorisons le local quelque soit le type de
-                  produits !
+                  produits
                 </p>
               </div>
             </div>

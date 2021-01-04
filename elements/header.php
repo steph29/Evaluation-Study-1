@@ -1,7 +1,7 @@
  <header>
           <div class="container h-100 ">
             <nav class="navbar navbar-expand-lg navbar-light">
-              <img src="/images/1x/Epissure-blue.png" alt="epissure" width="190px" />
+              <img src="../images/1x/Epissure-blue.png" alt="epissure" width="190px" />
               <button
                 class="navbar-toggler"
                 type="button"
